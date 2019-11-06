@@ -215,3 +215,34 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  .main-section {
+    max-width: 100%;
+  }
+  nav {
+    margin: 20px 50px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .main-section, nav, #logo {
+    max-width: 100%;
+  }
+  nav, #logo, .work {
+    width: 100%
+  }
+  nav {
+    text-align: center;
+    padding: 0px;
+  }
+  .main-section {
+    border: 30px;
+  }
+}
